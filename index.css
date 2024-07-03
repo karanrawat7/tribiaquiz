@@ -1,0 +1,49 @@
+*{
+    font-family: 'Courier New';
+}
+h1,h3{
+    color: #d70808;
+}
+#signup,#login{
+    background-color: rgb(188, 22, 210);
+    color:rgb(243, 237, 242)
+}
+.upvote{
+    background-color: rgb(57, 22, 233) ;
+    color:aliceblue
+}
+/* disendent */ 
+
+.post a {
+    color:blueviolet;
+}
+nav ul li a{
+    color:rgb(8, 91, 119);
+}
+
+/* adjecent sibbling combinatio*/
+
+p+h3{
+    text-decoration: underline;
+}
+
+/*child combinator ( )*/
+
+div>input{
+    background-color: rgb(228, 219, 219);
+}
+
+/*attribute sselector ( use to change the color of tha text inside the box )*/ 
+
+input[type="text"]{
+    color: rgb(55, 226, 21);
+}
+input[type="password"]{
+    
+    color: rgb(207, 7, 7);
+}
+/* pseudo class ( to hover on an element it color changes )*/
+ a:hover{
+    color:rgb(244, 17, 17);
+    background-color: rgb(1, 11, 20);
+}
